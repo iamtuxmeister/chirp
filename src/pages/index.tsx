@@ -34,8 +34,8 @@ const CreatePostWizard = () => {
         src={user.profileImageUrl}
         alt="Profile image"
         className="h-14 w-14 rounded-full"
-        width={14}
-        height={14}
+        width={60}
+        height={60}
       />
       <input
         placeholder="Type some emojis!"
@@ -60,6 +60,8 @@ const PostView = (props: PostWithUser) => {
         src={author.profileImageUrl}
         alt={`@${author.username}'s profile picture`}
         className="h-14 w-14 rounded-full"
+        width={60}
+        height={60}
       />
       <div className="flex flex-col">
         <div className="flex gap-1 text-slate-300">
